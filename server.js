@@ -1,4 +1,4 @@
-/* eslint-env node */
+
 const WebSocket = require('ws');
 
 const wss = new WebSocket.Server({ port: 8080, host: '0.0.0.0' });
